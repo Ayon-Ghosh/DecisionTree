@@ -1,0 +1,50 @@
+wsgiref.simple_server reference
+
+https://stackoverflow.com/questions/31433682/control-wsgiref-simple-server-log
+
+Heroku folder: winequality-dtree-api
+
+https://winequality-dtree-api.herokuapp.com/
+https://winequality-dtree-api.herokuapp.com/
+
+in production server, we use: 
+
+# the below impoirt files change according to the requirement of the project ---
+
+from flask import Flask, render_template, url_for, flash, redirect, request
+from forms import SearchForm
+from flask_cors import CORS,cross_origin
+from datetime import datetime
+import requests
+import datetime
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+import numpy as np
+#import pymongo
+
+app = Flask(__name__)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+	
+But in deployment use:
+import....
+from wsgiref import simple_server	
+
+app = Flask(__name__)
+CORS(app)
+app.config['DEBUG'] = True
+
+
+# This will automartrically take the port and host number we dont need to mention anything.
+if __name__ == "__main__":
+    httpd = simple_server.make_server(host, port, app)
+    print("Serving on %s %d" % (host, port))
+    httpd.serve_forever()
+	
+Note: Remember to add predict to the url to test from postman
+
+https://winequality-dtree-api.herokuapp.com/predict	
+	
+	

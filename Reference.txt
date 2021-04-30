@@ -1,0 +1,21 @@
+Statquest best intuition:
+
+https://www.youtube.com/watch?v=7VeUPuFGJHk
+
+Algo: playlist
+https://www.youtube.com/watch?v=y6DmpG_PtN0&list=PLPOTBrypY74xS3WD0G_uzqPjCQfU6IRK-&index=1
+
+Class weight parameter usage for a imbalanced dataset:
+
+https://stackoverflow.com/questions/57076570/how-to-calculate-class-weights-for-random-forests
+https://www.kaggle.com/christiantheilhave/class-imbalance-with-weighted-random-forest
+https://towardsdatascience.com/working-with-highly-imbalanced-datasets-in-machine-learning-projects-c70c5f2a7b16
+https://stackoverflow.com/questions/47006168/class-weight-in-random-forest-python
+
+Proximity matrix - random forest:
+
+https://stackoverflow.com/questions/18703136/proximity-matrix-in-sklearn-ensemble-randomforestclassifier
+
+Post pruning decision trees with cost complexity pruning:
+https://www.youtube.com/watch?v=SLOyyFHbiqo
+https://github.com/krishnaik06/Post_Pruning_DecisionTre/blob/master/plot_cost_complexity_pruning.ipynb
